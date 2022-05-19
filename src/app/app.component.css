@@ -1,0 +1,15 @@
+label {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label img {
+    background-color: gray;
+}
+
+:checked+label img {
+    background-color: blue;
+}
